@@ -1,0 +1,115 @@
+.link{
+    display: block;
+    background-color: #000000;
+    text-align: center;
+    padding: 17px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #FFC824;
+    border: solid #000000 2px;
+    width: 90%;
+    min-width: 70px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: #FFC824;
+    display: block;
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#logo{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 35px auto 20px;
+}
+
+
+
+
+/* The popup form - hidden by default */
+.form-popup {
+    width: 90%;
+  display: none;
+  position: fixed;
+  max-width: 500px;
+  left: 50%;
+    top: 50%;
+    transform: translate(-48%, -50%);
+    filter: blur(0px);
+}
+
+/* Add styles to the form container */
+.form-container {
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container {
+  width: 90%;
+  padding: 15px;
+    margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  text-transform: capitalize;
+  padding-inline-start: 10px;
+}
+
+.form-container input[type=number]{
+    width: 90%;
+    padding: 15px;
+  padding-inline-start: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  margin-bottom:10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+#logo{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+/* body :not(.form-container){
+    filter: blur(2px);    
+} */
